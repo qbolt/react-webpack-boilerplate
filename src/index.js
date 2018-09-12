@@ -9,7 +9,7 @@ import Header from './components/Header'
 ReactDOM.render(
   <BrowserRouter>
     <div>
-      <Route path='/' component={Header}/>
+      <Route path='/' component={Header} />
       <Route exact path='/' component={Home} />
       <Route exact path='/about' component={About} />
     </div>
